@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔍 Guess the Number!</title>
+    <link rel="icon" type="image/x-icon" href="./android-chrome-192x192.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="header">
+            <h1>🤔 Guess Me If You Can!</h1>
+        </div>
+        <div class="input">
+
+            <div class="para">
+                <p class="instructions">Enter a number between 1 and 100:</p>
+            </div>
+            
+            <div class="rest">
+                <input type="text" id="guessField" class="guessField" placeholder="Your guess here...">
+                <button type="submit" class="btn" > Submit</button>
+            </div>
+            
+        </div>
+
+        <div class="feedBack">
+            <p class="feedbackText">Start guessing...</p>
+            <div class="reset-btn-div">
+                <button class = "reset-btn">Reset</button>
+            </div>
+            
+        </div>
+
+        <div class="clock">
+            <p class="clockText">Time: <span id="hours">00</span> <span>:</span>  <span id="minutes">00</span></p>
+
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li><a href="./privacy.html" target="_blank">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+        </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>

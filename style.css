@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFBDE;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4682A9;
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+.header h1 {
+    text-shadow: 2px 2px 0 #333, 
+               4px 4px 0 #666, 
+               6px 6px 0 #999;
+}
+.header h1:hover {
+    color: #FF6347;
+    transition: color 0.3s ease-in-out;
+}
+
+.para{
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+.rest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.guessField{
+     width: 19rem;
+    height: 3rem;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 2px solid #4682A9;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.btn{
+    width: 10rem;
+    height: 3rem;
+    background-color: #4682A9;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.feedbackText{
+    text-align: center;
+    color: #4682A9;
+    font-size: 1.5rem;
+    margin-top: 2.6rem;
+}
+.reset-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.reset-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    background-color: #FF6347;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    background-color: #333; /* dark background */
+    padding: 20px;
+    text-align: center;
+    margin-top: 2rem;
+    min-height: 11rem;
+}
+
+.footer  ul {
+    margin-top: 4rem;
+    list-style: none; /* removes bullets */
+    padding: 0;
+    
+}
+
+.footer li {
+    display: inline-block; /* makes the list horizontal */
+    margin: 0 15px; /* spacing between items */
+    opacity: 0.7; /* slightly transparent */
+}
+
+.footer a {
+    color: white; /* link color */
+    text-decoration: none; /* removes underline */
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline; /* underline on hover */
+}
+
+.clock{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4682A9;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
